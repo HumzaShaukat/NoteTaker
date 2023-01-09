@@ -1,24 +1,15 @@
 {
-  "name": "notetaker",
+  "name": "note-taker",
   "version": "1.0.0",
-  "description": "This application is an online solution to keeping track of notes.  Notes must be given a title and body and once submitted, either through the webpage or through insomnia directly through a POST request, will be saved into a database.  Notes can also be deleted with a delete request or through the deployed webpage.",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HumzaShaukat/NoteTaker.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HumzaShaukat/NoteTaker/issues"
-  },
-  "homepage": "https://github.com/HumzaShaukat/NoteTaker#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.16.4",
+    "uuid": "^9.0.0"
   }
 }
